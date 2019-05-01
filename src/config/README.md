@@ -21,3 +21,43 @@ module.exports = {
 }
 
 ```
+
+# Mail format
+
+File: `mail.js`
+
+```
+module.exports = {
+  host: '',
+  port: '',
+  secure: false,
+  auth: {
+    user: '',
+    pass: ''
+  }
+}
+
+```
+
+# Redis format
+
+File: `redis.js`
+
+```
+module.exports = {
+  host: '',
+  port: port
+}
+
+```
+
+# Sentry format
+
+File: `sentry.js`
+
+```
+module.exports = {
+  dsn: ''
+}
+
+```
